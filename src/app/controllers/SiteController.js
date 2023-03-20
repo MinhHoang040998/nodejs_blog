@@ -9,7 +9,7 @@ class SiteController {
                 res.render('home', {
                      courses : mutipleMongooseToObject(courses)
                     });
-            })
+                })
             .catch(next)
     }
 
